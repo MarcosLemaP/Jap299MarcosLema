@@ -1,93 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>eMercado - Todo lo que busques está aquí</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Lema - Programador Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav w-100 justify-content-between">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="categories.html">Categorías</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="sell.html">Vender</a>
-          </li>
-          <li class="nav-item">
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <main>
-    <div class="jumbotron text-center"></div>
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm custom-card cursor-active" id="autos">
-              <img class="bd-placeholder-img card-img-top" src="img/cars_index.jpg"
-                alt="Imgagen representativa de la categoría 'Autos'">
-              <h3 class="m-3">Autos</h3>
-              <div class="card-body">
-                <p class="card-text">Los mejores precios en autos 0 kilómetro, de alta y media gama.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm custom-card cursor-active" id="juguetes">
-              <img class="bd-placeholder-img card-img-top" src="img/toys_index.jpg"
-                alt="Imgagen representativa de la categoría 'Juguetes'">
-              <h3 class="m-3">Juguetes</h3>
-              <div class="card-body">
-                <p class="card-text">Encuentra aquí los mejores precios para niños/as de cualquier edad.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm custom-card cursor-active" id="muebles">
-              <img class="bd-placeholder-img card-img-top" src="img/furniture_index.jpg"
-                alt="Imgagen representativa de la categoría 'Muebles'">
-              <h3 class="m-3">Muebles</h3>
-              <div class="card-body">
-                <p class="card-text">Muebles antiguos, nuevos y para ser armados por uno mismo.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <a class="btn btn-light btn-lg btn-block" href="categories.html">Y mucho más!</a>
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer class="text-muted">
-    <div class="container">
-      <p class="float-end">
-        <a href="#">Volver arriba</a>
-      </p>
-      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a></p>
-    </div>
-  </footer>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/index.js"></script>
-  <script src="js/init.js"></script>
-</body>
+    <header>
+        <h1>Marcos Lema</h1>
+        <p>Programador Full Stack y Estudiante de Ingeniería en Computación</p>
+    </header>
 
+    <nav>
+        <button id="menu-toggle">Menú</button>
+        <ul id="menu">
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un apasionado programador full stack con experiencia en el desarrollo de aplicaciones web y móviles. Actualmente, estoy ampliando mis conocimientos como estudiante de Ingeniería en Computación, lo que me permite combinar la teoría académica con la práctica profesional.</p>
+            <p>Mi enfoque se centra en crear soluciones tecnológicas innovadoras y eficientes, siempre buscando aprender nuevas tecnologías y metodologías para mejorar mis habilidades.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Desarrollo Frontend (HTML, CSS, JavaScript)</li>
+                <li>Desarrollo Backend (Node.js, Python)</li>
+                <li>Bases de datos (SQL, MongoDB)</li>
+                <li>Control de versiones (Git)</li>
+                <li>Metodologías Ágiles</li>
+            </ul>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="proyectos-container">
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300x200.png?text=Proyecto+1" alt="Proyecto 1">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción breve del proyecto 1 y tecnologías utilizadas.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300x200.png?text=Proyecto+2" alt="Proyecto 2">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve del proyecto 2 y tecnologías utilizadas.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="https://via.placeholder.com/300x200.png?text=Proyecto+3" alt="Proyecto 3">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción breve del proyecto 3 y tecnologías utilizadas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marcos Lema. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
